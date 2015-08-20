@@ -64,17 +64,17 @@ public class GraphDominatrixDemo
 							
 							parent.getOutput().clear();
 							break;
-							
+						
 						case "Open":
 							
 							parent.getOutput().openOrSaveFile(true);
 							break;
-							
+						
 						case "Save":
 							
 							parent.getOutput().openOrSaveFile(false);
 							break;
-							
+						
 						default:
 							
 							break;
@@ -123,14 +123,14 @@ public class GraphDominatrixDemo
 				menuBar.add(fileMenu);
 				window.setJMenuBar(menuBar);
 				contentPane.setLayout(new BorderLayout());
-				contentPane.add(graphPanel, BorderLayout.CENTER); 
+				contentPane.add(graphPanel, BorderLayout.CENTER);
 				contentPane.add(outputPanel, BorderLayout.SOUTH);
 				parent.setOutput(outputBox);
 			}
 		};
 		
-		this.setWindow(new ApplicationWindow(null, "Graph Dominatrix", new Dimension(800, 600), this.isDebugging(), false, 
-			myActionPerformed, myDrawGUI));
+		this.setWindow(new ApplicationWindow(null, "Graph Dominatrix", new Dimension(800, 600), this.isDebugging(), 
+			false, myActionPerformed, myDrawGUI));
 	}
 	
 	public final RichTextPane getOutput()
