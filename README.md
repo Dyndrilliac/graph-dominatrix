@@ -1,7 +1,8 @@
 *******************************************************************
 
-* Title:     Graph Dominatrix (COT 4560 Programming Project)
+* Title:     Graph Dominatrix
 * Author:    [Matthew Boyette](mailto:Dyndrilliac@gmail.com)
+* Class:     Applied Graph Theory (COT 4560)
 * Professor: Dr. William 'Chip' Klostermeyer
 * Term:      Fall 2014
 
